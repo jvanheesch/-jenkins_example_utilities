@@ -1,6 +1,6 @@
 package com.github.jvanheesch
 
-class Helper2 {
+class HelperGroovy {
     static def mvn(script, args) {
         script.sh "${script.tool 'Maven'}/bin/mvn -s ${script.env.HOME}/jenkins.xml -o ${args}"
     }
